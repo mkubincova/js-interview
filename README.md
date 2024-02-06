@@ -12,3 +12,6 @@ Function declaration, Function expression, First class functions, IIFE, Scope, H
 
 ### 4. Closures
 Definition, Scope chain, Scope vs Closure + Exercises (Time optimization, setTimeout, Private func, Module pattern, Once polyfill, Memoize/Cache polyfill)
+
+### 5. Currying
+Definition + Exercises (Implementation, Infinite currying, Currying vs Partial Application, Convert function to curried one)
