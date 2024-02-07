@@ -15,3 +15,6 @@ Definition, Scope chain, Scope vs Closure + Exercises (Time optimization, setTim
 
 ### 5. Currying
 Definition + Exercises (Implementation, Infinite currying, Currying vs Partial Application, Convert function to curried one)
+
+### 6. Objects
+Access, Add, Edit and Delete property, Loops + Exercises (JSON.stringify and JSON.parse, Destructuring, Object referencing, Shallow vs Deep copy)
