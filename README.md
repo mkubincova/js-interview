@@ -18,3 +18,6 @@ Definition + Exercises (Implementation, Infinite currying, Currying vs Partial A
 
 ### 6. Objects
 Access, Add, Edit and Delete property, Loops + Exercises (JSON.stringify and JSON.parse, Destructuring, Object referencing, Shallow vs Deep copy)
+
+## 7. this
+Objects, Class + Exercises
