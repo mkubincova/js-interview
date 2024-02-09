@@ -21,3 +21,6 @@ Access, Add, Edit and Delete property, Loops + Exercises (JSON.stringify and JSO
 
 ### 7. this
 Objects, Class + Exercises
+
+### 8. Function methods
+Call, Bind, Apply, Polyfills + Exercises
