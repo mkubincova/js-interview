@@ -24,3 +24,6 @@ Objects, Class + Exercises
 
 ### 8. Function methods
 Call, Bind, Apply, Polyfills + Exercises
+
+### 9. Promises
+Sync vs Async, Callbacks, Promises
