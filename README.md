@@ -26,4 +26,7 @@ Objects, Class + Exercises
 Call, Bind, Apply, Polyfills + Exercises
 
 ### 9. Promises
-Sync vs Async, Callbacks, Promises, Chaining, Combinators, Async / Await, Polyfills + Exercises 
+Sync vs Async, Callbacks, Promises, Chaining, Combinators, Async / Await, Polyfills + Exercises
+
+### 10. Debouncing & Throttling
+Definition, Lodash, Polyfills
