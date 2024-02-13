@@ -5,17 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <!-- <script src="currying.js" defer></script> -->
     <!-- <script src="this.js" defer></script> -->
     <!-- <script src="function-methods.js" defer></script> -->
     <!-- <script src="promises-3.js" defer></script> -->
-    <script src="debounce-throttle.js" defer></script>
+    <!-- <script src="debounce-throttle.js" defer></script> -->
+    <script src="event-propagation.js" defer></script>
 </head>
 
 <body>
     <h1 id="heading">Hello There</h1>
 
-    <button class="increment_btn">Increment Debounce</button>
+    <div style="border: 1px solid red; padding: 20px;">
+        DIV
+        <form onsubmit="return false;" style="border: 1px solid orange; padding: 20px; margin: 20px;">
+            FORM
+            <button style="border: 1px solid green; padding: 20px; margin: 20px;">BUTTON</button>
+        </form>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <section class="products">
+        <span class="mobile">mobile</span>
+        <span class="headpohones">headpohones</span>
+        <span class="laptop">laptop</span>
+        <span class="speaker">speaker</span>
+        <span class="usb-dock">usb-dock</span>
+        <span class="tripod">tripod</span>
+    </section>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="div" style="border: 1px solid red; padding: 20px;">
+        DIV
+        <form class="form" onsubmit="return false;" style="border: 1px solid orange; padding: 20px; margin: 20px;">
+            FORM
+            <button class="button" style="border: 1px solid green; padding: 20px; margin: 20px;">BUTTON</button>
+        </form>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <button class="modalButton">open modal</button>
+    <div class="modalContainer">
+        <div class="modal">Modal content</div>
+    </div>
+
+    <!-- <button class="increment_btn">Increment Debounce</button>
     <p>Button Pressed <span class="increment_pressed">0</span> Times</p>
     <p>Triggered <span class="increment_count">0</span> Times</p>
 
@@ -29,7 +73,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
         integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 </body>
 
 </html>

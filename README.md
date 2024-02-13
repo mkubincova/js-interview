@@ -30,3 +30,6 @@ Sync vs Async, Callbacks, Promises, Chaining, Combinators, Async / Await, Polyfi
 
 ### 10. Debouncing & Throttling
 Definition, Lodash, Polyfills
+
+### 11. Event propagation
+Definition, Bubbling, Capturing, stopPropagation, e.target vs this.taget vs e.currentTarget, Delegation
