@@ -33,3 +33,6 @@ Definition, Lodash, Polyfills
 
 ### 11. Event propagation
 Definition, Bubbling, Capturing, stopPropagation, e.target vs this.taget vs e.currentTarget, Delegation
+
+## 12. DSA - Top 5 Questions
+Palindrome number, Fibonacci sequence, Anagram checker, Two Sum, Max Stock Profit
