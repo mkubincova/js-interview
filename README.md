@@ -37,6 +37,9 @@ Definition, Bubbling, Capturing, stopPropagation, e.target vs this.taget vs e.cu
 ### 12. DSA - Top 5 Questions
 Palindrome number, Fibonacci sequence, Anagram checker, Two Sum, Max Stock Profit
 
-### 13. Big O Notation
+### 13. DSA - Big O Notation
 Time complexity, Space complexity, O(1), O(n), O(n²)
+
+### 14. DSA - Arrays
+Declaration, Add/Remove, Loops, Spread & Rest operator, Built-in methods + Exercises
 
