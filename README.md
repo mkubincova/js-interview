@@ -43,3 +43,6 @@ Time complexity, Space complexity, O(1), O(n), O(n²)
 ### 14. DSA - Arrays
 Declaration, Add/Remove, Loops, Spread & Rest operator, Built-in methods + Exercises
 
+### 15. DSA - Kadane's Algorithm
+Calculating maximum sum of subarray
+
