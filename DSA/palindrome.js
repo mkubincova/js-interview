@@ -10,3 +10,13 @@ const isPalindrome = (num) => {
 };
 
 console.log(isPalindrome(545));
+
+
+function isPalindromeRecursive(num) {
+    let str = num.toString();
+    if (str.length < 2) return true;
+    if (str[0] != str[str.length - 1]) return false;;
+    return isPalindromeRecursive(str.slice(1, -1));
+}
+
+console.log(isPalindromeRecursive(545));
