@@ -48,3 +48,6 @@ Calculating maximum sum of subarray
 
 ### 16. DSA - Recursion
 Example + Exercises
+
+### 17. DSA - Stack
+push(), pop(), isEmpty(), peek(), size()
