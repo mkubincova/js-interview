@@ -54,3 +54,6 @@ push(), pop(), isEmpty(), peek(), size()
 
 ### 18. DSA - Queue
 enqueue(), dequeue(), isEmpty(), peek(), Circular queue, Implementing stack using queues, Implementing queue using stacks
+
+### 19. DSA - Sliding Window Maximum
+Brute force, Readable, Optimized time & space complexity
