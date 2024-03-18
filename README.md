@@ -51,3 +51,6 @@ Example + Exercises
 
 ### 17. DSA - Stack
 push(), pop(), isEmpty(), peek(), size()
+
+### 18. DSA - Queue
+enqueue(), dequeue(), isEmpty(), peek(), Circular queue, Implementing stack using queues, Implementing queue using stacks
