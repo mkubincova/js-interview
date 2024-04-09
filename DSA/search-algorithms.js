@@ -84,6 +84,10 @@ const findKthPositive = (arr, k) => {
     return k + count;
 };
 
+// count = all positive numbers found until this poit
+// k = index among missing ones
+// k + count = total number of positive integers (including the missing ones) up to index i
+
 // 2. Maximum count of positive integer and negative integer
 // given arr of nums sorted in non-decreasing order, return the maximum between 
 // the number of poisitve ints and the number of negative ints
