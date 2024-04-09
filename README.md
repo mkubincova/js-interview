@@ -60,3 +60,6 @@ Brute force, Readable, Optimized time & space complexity
 
 ### 20. DSA - Strings
 Declaration, Lenght, Loops, Modifying, Searching, Extracting substring, Converting, ASCII, Comparing, Split & Join + Exrecises
+
+### 21. DSA - Search algorithm
+Linear, Global Linear, Binary + Exercises

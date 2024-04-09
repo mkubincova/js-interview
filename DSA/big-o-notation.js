@@ -102,3 +102,27 @@ console.log(createMatrix(3)); // [ [ 0, 1, 2 ], [ 1, 2, 3 ], [ 2, 3, 4 ] ]
 
 
 
+
+/*****  O(log n)  *****/
+// divide and conquer type of algorithms
+// time goes up linearly while the n goes up exponentially. So if it takes 1 second to compute 10 elements, 
+// it will take 2 seconds to compute 100 elements, 3 seconds to compute 1000 elements...
+
+// T:
+const binarySearch = (nums, target) => {
+    let start = 0;
+    let end = nums.length - 1;
+
+    while (start <= end) {
+        let middle = Math.floor((start + end) / 2);
+
+        if (nums[middle] === target) {
+            return middle;
+        } else if (nums[middle] < target) {
+            start = middle + 1;
+        } else {
+            end = middle - 1;
+        }
+    }
+    return -1;
+};
