@@ -66,3 +66,6 @@ Linear, Global Linear, Binary + Exercises
 
 ### 22. DSA - Sort algorithms
 Bubble, Selection, Insertion, Built-in, Merge, Quick + Exercises
+
+### 23. DSA - Linked list
+addFirst, addLast, addAt, removeFirst, removeLast, removeAt, size, print + Exrecises
