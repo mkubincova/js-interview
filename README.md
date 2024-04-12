@@ -68,4 +68,4 @@ Linear, Global Linear, Binary + Exercises
 Bubble, Selection, Insertion, Built-in, Merge, Quick + Exercises
 
 ### 23. DSA - Linked list
-addFirst, addLast, addAt, removeFirst, removeLast, removeAt, size, print + Exrecises
+Singly Linked List, Doubly Linked List, LRU Cache in React + Exrecises

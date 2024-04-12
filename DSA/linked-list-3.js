@@ -1,12 +1,10 @@
-/***** SINGLY LINKED LIST  *****/
-// helps save space in memory
-// divided into nodes, each has reference to the next one
-// can only move from left to right
+/***** DOUBLY LINKED LIST  *****/
 
 class Node {
     constructor(data) {
         this.data = data;
         this.next = null;
+        this.prev = null;
     }
 }
 
@@ -18,6 +16,7 @@ class LinkedList {
     addFirst(data) {
         const newNode = new Node(data);
         newNode.next = this.head;
+        if (this.head) this.head.prev = newNode;
         this.head = newNode;
     }
 
@@ -31,6 +30,7 @@ class LinkedList {
         while (current.next) {
             current = current.next;
         }
+        newNode.prev = current;
         current.next = newNode;
     }
 
@@ -42,6 +42,7 @@ class LinkedList {
         const newNode = new Node(data);
         if (index === 0) {
             newNode.next = this.head;
+            if (this.head) this.head.prev = newNode;
             this.head = newNode;
             return;
         }
@@ -49,17 +50,24 @@ class LinkedList {
         for (let i = 0; i < index - 1; i++) {
             current = current.next;
         }
+        newNode.prev = current;
         newNode.next = current.next;
+
+        if (current.next) current.next.prev = newNode;
         current.next = newNode;
     }
 
     removeFirst() {
         if (!this.head) return;
         this.head = this.head.next;
+        if (this.head) this.head.prev = null;
     }
 
     removeLast() {
         if (!this.head) return;
+        if (!this.head.next) {
+            this.head = null;
+        }
         let current = this.head;
         while (current.next.next) {
             current = current.next;
@@ -74,6 +82,7 @@ class LinkedList {
         }
         if (index === 0) {
             this.head = this.head.next;
+            if (this.head) this.head.prev = null;
             return;
         }
         let current = this.head;
@@ -82,6 +91,7 @@ class LinkedList {
         }
         if (current.next) {
             current.next = current.next.next;
+            if (current.next) current.next.prev = current;
         }
     }
 
@@ -104,25 +114,20 @@ class LinkedList {
     }
 }
 
-
 const linkedList = new LinkedList();
 
-linkedList.addFirst(5);
-linkedList.addFirst(3);
-linkedList.addFirst(8);
-linkedList.addLast(6);
+linkedList.addFirst(5); // 5
+linkedList.addFirst(3); // 3 -> 5
+linkedList.addFirst(8); // 8 -> 3 -> 5
+linkedList.addLast(6); // 8 -> 3 -> 5 -> 6
 
-linkedList.print(); // 8 -> 3 -> 5 -> 6
-console.log("size: ", linkedList.size()); // 4
+linkedList.removeFirst(); // 3 -> 5 -> 6
 
-linkedList.removeFirst();
-linkedList.print(); // 3 -> 5 -> 6
+linkedList.addAt(333, 2); // 3 -> 5 -> 333 -> 6
 
-linkedList.addAt(333, 2);
-linkedList.print(); // 3 -> 5 -> 333 -> 6
+linkedList.removeLast(); // 3 -> 5 -> 333
 
-linkedList.removeLast();
-linkedList.print(); // 3 -> 5 -> 333
+linkedList.removeAt(2); // 3 -> 5
 
-linkedList.removeAt(2);
-linkedList.print(); // 3 -> 5
+linkedList.print();
+console.log("size: ", linkedList.size());
